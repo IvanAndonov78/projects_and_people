@@ -1,0 +1,26 @@
+[
+  {
+    "id": "561651ac-4445-4f740",
+    "name": "Mamma Mia Inc 2018-60",
+    "business": "pizza-production",
+    "slogan": "Just try this pizza"
+  },
+  {
+    "id": "4x3229951-7c0d-4be3c",
+    "name": "Mis Coffeeeee",
+    "business": "coffee-distribution",
+    "slogan": "Try our coffee"
+  },
+  {
+    "id": "6516asdf-78sf-563drc",
+    "name": "Mr Cold Wisky",
+    "business": "Wisky production",
+    "slogan": "Do not drink too much but you should try our wisky"
+  },
+  {
+    "id": "a4s52ef-c7f4-l33k6jp",
+    "name": "Cake masters",
+    "business": "Bakering",
+    "slogan": "Cake eating is joy"
+  }
+]

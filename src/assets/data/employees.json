@@ -1,0 +1,42 @@
+[
+  {
+    "id": "d616asdf-fd41",
+    "firstName": "Pesho",
+    "lastName": "Peshev",
+    "dateOfBirth": "1990-01-11T21:48:77.903Z",
+    "companyId": "561651ac-4445-4f740",
+    "jobTitle": "CTO",
+    "jobArea": "IT",
+    "jobType": "Manager"
+  },
+  {
+    "id": "ed5348cd-61dx",
+    "firstName": "Gosho",
+    "lastName": "Goshev",
+    "dateOfBirth": "1993-08-24T22:51:24.605Z",
+    "companyId": "561651ac-4445-4f740",
+    "jobTitle": "Web Developer",
+    "jobArea": "IT",
+    "jobType": "Developer"
+  },
+  {
+    "id": "5asdf15ef-c68d",
+    "firstName": "Maria",
+    "lastName": "Pesheva",
+    "dateOfBirth": "1995-07-11T04:21:25.605Z",
+    "companyId": "6516asdf-78sf-563drc",
+    "jobTitle": "Web Designer",
+    "jobArea": "IT",
+    "jobType": "Graphic Design"
+  },
+  {
+    "id": "ax5s19651s-4d8s",
+    "firstName": "Lily",
+    "lastName": "Manova",
+    "dateOfBirth": "1983-02-07T10:45:51.714Z",
+    "companyId": "6516asdf-78sf-563drc",
+    "jobTitle": "Chief Accountant",
+    "jobArea": "IT",
+    "jobType": "Accounting and Finance"
+  }
+]

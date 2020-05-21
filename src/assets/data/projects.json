@@ -1,0 +1,26 @@
+[
+  {
+    "id": "asd51a5-333d",
+    "name": "Site d13s",
+    "department": "IT",
+    "employeesId": ["d616asdf-fd41"],
+    "companyId": "561651ac-4445-4f740"
+  },
+  {
+    "id": "a16sd16-42dd",
+    "name": "Site d5s1",
+    "department": "IT",
+    "employeesId": [],
+    "companyId": "561651ac-4445-4f740"
+  },
+  {
+    "id": "651s6sf-456s",
+    "name": "App d531",
+    "department": "IT",
+    "employeesId": [
+      "5asdf15ef-c68d",
+      "ax5s19651s-4d8s"
+    ],
+    "companyId": "6516asdf-78sf-563drc"
+  }
+]

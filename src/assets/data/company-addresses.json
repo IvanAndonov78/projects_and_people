@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4f740",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "street": "44 Rakovska Str.",
+    "state": "Sofia",
+    "companyId": "561651ac-4445-4f740"
+  },
+  {
+    "id": "4be3c",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "street": "55 Levski Blv.",
+    "state": "Sofia",
+    "companyId": "4x3229951-7c0d-4be3c"
+  },
+  {
+    "id": "563drc",
+    "city": "Pernik",
+    "country": "Bulgaria",
+    "street": "71 Asen Str.",
+    "state": "Sofia",
+    "companyId": "6516asdf-78sf-563drc"
+  },
+  {
+    "id": "l33k6jp",
+    "city": "Vratza",
+    "country": "Bulgaria",
+    "street": "72 Spring",
+    "state": "Sofia",
+    "companyId": "a4s52ef-c7f4-l33k6jp"
+  }
+]
