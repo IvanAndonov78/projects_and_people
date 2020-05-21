@@ -1,0 +1,74 @@
+<div id="employee-add-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-employee-add-modal">&times;</span>
+
+        <form [formGroup] = "formdata" (ngSubmit) = "employeeFormHandler(formdata.value)" > 
+            <input type = "text" class = "fortextbox" name = "id" placeholder = "id" 
+                formControlName = "id"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "firstName" placeholder = "firstName" 
+                formControlName = "firstName"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "lastName" placeholder = "lastName" 
+                formControlName = "lastName"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "dataOfBirth" placeholder = "dateOfBirth" 
+                formControlName = "dateOfBirth"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "companyId" placeholder = "companyId" 
+                formControlName = "companyId"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "jobTitle" placeholder = "jobTitle" 
+                formControlName = "jobTitle"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "jobArea" placeholder = "jobArea" 
+                formControlName = "jobArea"> 
+            <br/> <br/>
+            <input type = "text" class = "fortextbox" name = "jobType" placeholder = "jobType" 
+                formControlName = "jobType"> 
+            <br/> <br/>
+
+            <input type = "submit" class = "forsubmit" value = "Submit"> 
+        </form> 
+        
+    </div> 
+</div>
+<button class="add-employee" (click) ="initAddModal()"> Add new new employee </button> 
+<h3> You should click on a row, if you wish to deal with the data .. </h3>
+
+
+<div id="employee-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-employee-modal">&times;</span>
+        <h2> Employee details: </h2> 
+        <p> Id: {{employeeAndProjects.id}} </p>
+        <p> First name: {{employeeAndProjects.firstName}} </p>
+        <p> Last name: {{employeeAndProjects.lastName}} </p>
+        <p> Date of birth: {{employeeAndProjects.dateOfBirth}} </p>
+        <p> Company Id: {{employeeAndProjects.companyId}} </p>
+        <p> Job Title: {{employeeAndProjects.jobTitle}} </p>
+        <p> Job Area: {{employeeAndProjects.jobArea}} </p>
+        <p> Job Type: {{employeeAndProjects.jobType}} </p>
+        <p> Projects: {{employeeProjectsToStr}} </p>
+
+    </div>
+</div>
+
+<table> 
+    <tr>
+        <th> Id </th>
+        <th> First Name </th>
+        <th> Last Name </th>
+        <th><th>
+    </tr>    
+    <tr *ngFor = "let person of employees" (click) = "employeeRowHandler(person)">        
+        <td> {{person.id}} </td>
+        <td> {{person.firstName}} </td>
+        <td> {{person.lastName}} </td>
+        <td class="action-col"> 
+            <button (click) = "del(person)" > Delete </button>
+        </td>
+    </tr>
+</table> 
+
+
