@@ -1,0 +1,64 @@
+
+<div id="company-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-company-modal">&times;</span>
+
+        <h2> Company address: </h2> {{companyAddress}} 
+        <hr>
+        <h2> Company projects: </h2>
+
+        <div id="prj-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-prj-modal">&times;</span>
+                <h2> Change project name with id: </h2> {{prjId}}
+                <h3> From (old project name): </h3> {{oldPrjName}}
+
+                <form [formGroup] = "formdata" (ngSubmit) = "prjFormHandler(formdata.value)" > 
+                        <h3> To (new project name): </h3> 
+                    <input type = "text" class = "fortextbox" name = "newPrjName" placeholder = "newPrjName" 
+                        formControlName = "newPrjName"> 
+                    <br/> <br/>
+                    <input type = "submit" class = "forsubmit" value = "Submit"> 
+                </form>
+                <h2> The project name have been changed to: <span class="msgred"> {{newPrjName}} </span>  </h2> 
+                
+            </div> 
+        </div> 
+
+        <h3> You should click on a row, if you wish to deal with the data .. </h3>
+
+        <table>
+
+            <th> Prj Id </th>
+            <th> Prj name </th>
+            <th> Department </th>
+            <th> Employees Id </th>
+            <th> Company Id </th>
+
+            <tr *ngFor = "let prj of companyProjectsArr" (click) = "prjRowHandler(prj)">
+                <td> {{prj.id}} </td>
+                <td> {{prj.name}} </td>
+                <td> {{prj.department}} </td>
+                <td> {{prj.employeesId}} </td>
+                <td> {{prj.companyId}} </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<h3> You should click on a row, if you wish to deal with the data .. </h3>
+
+<table> 
+    <tr>
+        <th> ID </th>
+        <th> Company Name </th>
+        <th> Business </th>
+        <th> Slogan </th>
+    </tr>    
+    <tr *ngFor = "let el of companies" (click) = "companyRowHandler(el)">        
+        <td> {{el.id}} </td>
+        <td> {{el.name}} </td>
+        <td> {{el.business}} </td>
+        <td> {{el.slogan}} </td>
+    </tr> 
+</table>
