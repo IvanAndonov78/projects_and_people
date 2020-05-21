@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+nav {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #4e95f4;
+}
+
+.nav-inner-holder {
+    width:480px;
+    margin: 0px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    background:#b8d1f3;
+    cursor: pointer;
+}
+
+table tr:hover{
+    /*background: #084ba3 !important;*/
+    background-color: #4e95f4   !important;
+}
+
+table tr:nth-child(odd) {
+    background:#b8d1f3;
+}
+
+table tr:nth-child(even) {
+    background: #dae5f4;
+}
+
+table tr th {
+    padding: 7px;
+    border: #4e95f4 1px solid;
+}
+
+table tr td {
+    padding: 7px;
+    border: #4e95f4 1px solid;
+}
+
+
+
+
