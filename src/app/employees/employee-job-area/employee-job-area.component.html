@@ -1,0 +1,17 @@
+
+<table> 
+    <tr>
+        <th> Id </th>
+        <th> Project Name </th>
+        <th> Department </th>
+        <th> EmployeesId </th>
+        <th> Company Id </th>
+    </tr>    
+    <tr *ngFor = "let project of projects" (click) ="jobRowHandler()">        
+        <td> {{project.id}} </td>
+        <td> {{project.name}} </td>
+        <td> {{project.department}} </td>
+        <td> {{project.employeesId}} </td>
+        <td> {{project.companyId}} </td>
+    </tr> 
+</table>
