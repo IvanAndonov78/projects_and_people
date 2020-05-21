@@ -1,0 +1,33 @@
+<style>
+
+  a:link, a:visited { 
+    background-color: #848686; 
+    color: white; 
+    padding: 10px 25px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+  } 
+  a:hover, a:active {
+    background-color: #BD9696;
+  }
+
+  @media screen and (max-width: 767px) {}
+
+  @media screen and (max-width: 575px) {}
+</style>
+
+<div class="content" role="main">
+    <nav>
+        <div class="nav-inner-holder">
+          <a routerLink="/companyName"> Company name </a>
+          <a routerLink="/companyName/employeeJobArea"> Employee job area </a>
+          <a routerLink="/companyName/employeeJobArea/employeeName"> Employee name </a>
+        </div>
+    </nav>
+
+  <footer></footer>
+
+</div>
+
+<router-outlet></router-outlet>
